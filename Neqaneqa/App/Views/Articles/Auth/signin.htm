@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Abebe Biru" />
+    <meta name="description" content="This is the page made by using table element with its attributes." />
+    <title>Sign Form</title>
+</head>
+
+<body>
+    <!-- table 1-->
+    <table>
+        <tr>
+            <!--table data 1-->
+            <td style="padding: 50px"></td>
+            <td>
+                <img src="/Resources/Images/logo_gold.png" alt="Gold Logo" width="30%" />
+            </td>
+            <!--table data 2-->
+            <td style="text-indent: 580px">
+                <strong><a href="#">Podcasts</a> | <a href="#">Articles </a>|
+            <a href="#">Ideas </a>| <a href="#">About Us </a>|
+            <a href="#">Contact Us</a></strong
+          >
+        </td>
+        <td></td>
+      </tr>
+    </table>
+    <hr />
+    <!--table 2-->
+    <table>
+      <!--table row 1-->
+      <tr>
+        <td width="5"></td>
+        <td>
+          <h1>Sign in</h1>
+          <p>Sign in and access to services</p>
+          <form action="user/get.php" method="get">
+            <label for="email">Username*:</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            /><br /><br />
+            <label for="password">Password*:</label><br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              size="26"
+              minlength="6"
+              maxlength="32"
+              placeholder="Password"
+              inputmode="numeric"
+              required
+            /><br /><br />
+            <input type="submit" value="Sign in" /><br /><br />
+          </form>
+        </td>
+        <td>
+          <p style="text-align: right"><a href="#bottom">Go To Bottom</a></p>
+
+          <h2>Recent Posts</h2>
+
+          <ul>
+            <li>
+              <b>Articles</b>
+            </li>
+            <ul>
+              <br />
+              <li>
+                The Importance of Goals, Especially During Difficult Times
+              </li>
+              <li>5 Steps to Discovering Your Life Purpose In 2022!</li>
+              <br />
+            </ul>
+            <li>
+              <b>Ideas</b>
+            </li>
+            <ul>
+              <br />
+              <li>10 Books to Read in The Fall</li>
+              <li>Top Web Development Projects Ideas</li>
+            </ul>
+          </ul>
+
+          <h2>Most Viewed Articles</h2>
+
+          <ol type="I">
+            <li>
+              Instant Gratification Is Stopping You From Reaching Your Goals!
+            </li>
+            <li>Stop Juggling Between Work And Life</li>
+          </ol>
+
+          <h2>IP Project Winners</h2>
+
+          <pre>
+--------------------------------------
+Rank          Award
+--------------------------------------
+First        Free hosting and support
+Second       5GB Mobile Data
+Third        1GB Mobile Data
+-------------------------------------- 
+               </pre
+          >
+          <h2 style="text-align: right">Want to Join us?</h2>
+          <h2 style="text-align: right">
+            Click: <a href="register.htm">Register</a>
+          </h2>
+        </td>
+
+        <td width="10%"></td>
+      </tr>
+
+      <!--table row 2-->
+      <tr>
+        <td width="100px;"></td>
+        <td width="50%">
+          <hr />
+          <h3>New Podcast</h3>
+          <h1>Jack Ma - How I Overcame Failure</h1>
+
+          <audio
+            src="/Resources/Audio/Jack Ma - How I Overcame Failure.mp3"
+            controls
+            title="Jack Ma - How I Overcame Failure"
+          >
+            <p>Your browser doesn't support the audio.</p>
+          </audio>
+          <hr />
+          <h3>Pick of The Week</h3>
+          <h1>24 Hours A Day</h1>
+
+          <video
+            src="/Resources/Videos/24.mp4"
+            width="700"
+            height="400"
+            controls
+            title="24 Hours A Day /Video mp4"
+          >
+            <p>Your browser doesn't support the video.</p>
+          </video>
+        </td>
+      </tr>
+    </table>
+    <hr />
+
+    <!--table 3-->
+    <table>
+      <tr>
+        <td>
+          <p style="text-align: left">
+            Follow Us On: <a href="#"><strong>Facebook | Twitter</strong></a>
+                </p>
+            </td>
+            <td>
+                <a href="#"><b>Privacy | Terms of Use</b></a>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center" width="88%" id="bottom">
+                Copyright © AASTU SEng 2021, All Rights Reserved
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

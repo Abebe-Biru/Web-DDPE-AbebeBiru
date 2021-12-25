@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Reservation and Pizza Delivery Page</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend style="text-align: center">
+                <h1>Reservation Request</h1>
+            </legend>
+            <fieldset>
+                <legend>General Information</legend>
+                <label for="date">Arrival date:</label><br />
+                <input type="date" name="date" id="date" /><br />
+                <label for="night">Nights:</label><br />
+                <input type="number" name="night" id="night" /><br />
+                <label for="qty">Adults:</label><br />
+                <input type="number" name="qty" id="qty" min="0" /><br />
+                <label for="child">Children:</label><br />
+                <input type="number" name="child" id="child" min="0" /><br />
+            </fieldset>
+            <fieldset>
+                <legend>Preferences</legend>
+                <label for="">Room Type:</label><br />
+                <input type="radio" name="room" id="room" />
+                <label for="room">Standard</label>
+                <input type="radio" name="room" id="room2" />
+                <label for="room">Business</label>
+                <input type="radio" name="room" id="room3" />
+                <label for="room">Suite</label><br />
+                <label for="">Bed Type:</label><br />
+                <input type="radio" name="bed" id="bed" />
+                <label for="room">King</label>
+                <input type="radio" name="bed" id="bed2" />
+                <label for="room">Double</label>
+                <input type="radio" name="bed" id="bed3" />
+                <label for="room">Smoking</label>
+            </fieldset>
+            <fieldset>
+                <legend>General Information</legend>
+                <label for="name2">Name:</label><br />
+                <input type="text" name="name" id="name2" required /><br />
+                <label for="em">E-mail:</label><br />
+                <input type="email" name="email" id="em" /><br />
+                <label for="tel">Phone:</label><br />
+                <input type="tel" name="tel" id="tel" /><br />
+            </fieldset>
+        </fieldset>
+        <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="submit">Submit Reservation</button
+      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button type="reset">Clear</button>
+    </form>
+    <br /><br />
+    <hr />
+    <form action="" method="get">
+        <fieldset>
+            <legend style="text-align: center">
+                <h2>Pizza Delivery</h2>
+            </legend>
+            <fieldset>
+                <legend>
+                    <h2>Online Order Form</h2>
+                </legend>
+                <label for="name3">Name*:</label><br />
+                <input type="text" name="name" id="name3" required /><br /><br />
+                <label for="address1">Address*:</label><br />
+                <input type="text" name="address" id="address1" required /><br /><br />
+                <label for="town">Town/City*:</label><br />
+                <input type="text" name="town" id="town" required /><br /><br />
+                <label for="post">postcode*:</label><br />
+                <input type="text" name="post" id="post" required /><br /><br />
+                <label for="tele">Telephone*:</label><br />
+                <input type="tel" name="tel" id="tele" required /><br /><br />
+                <label for="ema">E-mail*:</label><br />
+                <input type="email" name="ema" id="ema" required /><br /><br />
+                <p>* required fields</p>
+
+                <table>
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Topping</legend>
+                                <input type="radio" name="radio" id="marg" />
+                                <label for="marg">Margherite</label><br />
+                                <input type="radio" name="radio" id="season" />
+                                <label for="marg">Four Seasons</label><br />
+                                <input type="radio" name="radio" id="meat" />
+                                <label for="marg">Meat Feast</label><br />
+                            </fieldset>
+                        </td>
+                        <td>
+                            <fieldset>
+                                <legend>Size</legend>
+                                <input type="radio" name="radi" id="small" />
+                                <label for="small">Small</label><br />
+                                <input type="radio" name="radi" id="medium" />
+                                <label for="medium">Medium</label><br />
+                                <input type="radio" name="radi" id="large" />
+                                <label for="large">Large</label><br />
+                            </fieldset>
+                        </td>
+                        <td>
+                            <fieldset>
+                                <legend>Extras</legend>
+                                <input type="checkbox" name="check" id="mush" />
+                                <label for="mush">Mushrooms</label><br />
+                                <input type="checkbox" name="check1" id="pepper" />
+                                <label for="pepper">Green peppers</label><br />
+                                <input type="checkbox" name="check2" id="anch" />
+                                <label for="anch">Anchovies</label><br />
+                                <input type="checkbox" name="check3" id="cheese" />
+                                <label for="anch">Extra cheese</label><br />
+                            </fieldset>
+                        </td>
+                    </tr>
+                </table>
+                <label for="pre">Preferred delivery time:</label><br />
+                <input type="datetime" name="pre" id="pre" /><br /><br />
+                <label for="ins">Delivery Instructions or address:</label><br />
+                <textarea rows="8" cols="40"></textarea><br /><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit">Submit order</button>
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+
+</html>

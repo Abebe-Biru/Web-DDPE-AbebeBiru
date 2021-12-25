@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback page</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend style="text-align: center">
+                <h2 id="feedback">Feedback Form</h2>
+            </legend>
+            <fieldset>
+                <label for="name">Name:</label>
+                <input readonly type="text" name="name" value="" required /><br /><br />
+                <label for="name">E-mail:</label>
+                <input type="email" name="email" value="" required /><br /><br />
+            </fieldset>
+            <br />
+            <fieldset>
+                <p>Please check all the emotions that apply for you:</p>
+                <input type="checkbox" name="check1" value="angry" />
+                <label for="check">Angry</label><br />
+                <input type="checkbox" name="check2" value="sad" />
+                <label for="check">Sad</label><br />
+                <input type="checkbox" name="check3" value="happy" />
+                <label for="check">Happy</label><br />
+                <input type="checkbox" name="check" value="amb" checked />
+                <label for="check">Ambivalent</label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <p for="radio">How satisfied were you with our service?</p>
+                <input type="radio" name="a" id="very" value="Very satisfied" checked />
+                <label for="very">Very satisfied</label><br />
+                <input type="radio" name="a" id="sat" value="Satisfied" />
+                <label for="sat">Satisfied</label><br />
+                <input type="radio" name="a" id="did" value="Didn't care" />
+                <label for="did">Didn't care</label><br />
+                <input type="radio" name="a" id="dis" value="Dissatisfied" />
+                <label for="dis">Dissatisfied</label><br />
+                <input type="radio" name="a" id="vdis" value="Very dissatisfied" />
+                <label for="vdis">Very dissatisfied</label>
+            </fieldset>
+            <br />
+            <label for="comment">Further comments</label><br />
+            <textarea rows="8" cols="40" id="comment"></textarea><br /><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

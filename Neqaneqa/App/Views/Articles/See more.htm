@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML details and summary elements</title>
+</head>
+
+<body>
+    <h2>Click the "See more" button</h2>
+    <details>
+        <summary style="font-size: larger">See more</summary>
+        <details>
+            <summary>Homepage</summary>
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Computer Programming Company</title>
+            </head>
+
+            <body>
+                <h1 style="text-align: center">Welcome to Our Company</h1>
+                <details>
+                    <summary>See more</summary>
+                    <details>
+                        <summary>Application</summary>
+                    </details>
+                    <details>
+                        <summary>Feedback</summary>
+                    </details>
+                    <details>
+                        <summary>Reservation</summary>
+                    </details>
+                </details>
+                <form action="" method="get">
+                    <iframe src="Application.htm" width="50%"></iframe>
+                    <button>
+                <h2><a href="Application.htm">We Hire</a></h2>
+              </button>
+                </form>
+                <br />
+                <h2>
+                    <iframe src="Reservation.htm" width="50%"></iframe>
+                    <a href="Reservation.htm">
+                        <img src="service.png" alt="Our Additional Services icon" width="200" height="100" /> </a><br /><br />
+                </h2>
+                <br /><br /><br />
+                <iframe src="Feedback.htm" width="50%"></iframe>
+                <a href="Feedback.htm">
+                    <h2 style="text-align: center">Feedback</h2>
+                </a><br />
+                <h2 style="text-align: center">
+                    <a href="See more.htm">See more</a>
+                </h2>
+            </body>
+
+            </html>
+        </details>
+        <details>
+            <summary>Application Form</summary>
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Job Application Page</title>
+            </head>
+
+            <body>
+                <form action="" method="get">
+                    <fieldset>
+                        <legend style="text-align: center">
+                            <h1>Job Application Form</h1>
+                        </legend>
+                        <label for="position">Position appiled for:</label><br />
+                        <input type="text" name="position" size="50%" style="padding: 10px" autofocus required /><br /><br />
+                        <label for="name">Name:</label><br />
+                        <input type="text" name="name" id="name" maxlength="50" required /><br /><br />
+                        <label for="email">Email:</label><br />
+                        <input type="email" name="email" id="email" required /><br /><br />
+                        <label for="tel">Phone:</label><br />
+                        <input type="tel" name="tel" id="tel" required /><br /><br />
+                        <label for="name">Nationality:</label><br />
+                        <input type="text" name="nation" value="" placeholder="Type here" size="50%" style="padding: 10px" required /><br /><br />
+                        <label for="dob">Date of birth:</label><br />
+                        <input type="date" name="dob" id="dob" /><br /><br />
+                        <label for="address">Address:</label><br />
+                        <textarea rows="8" cols="40" id="address"></textarea
+                ><br /><br />
+                <label for="history"
+                  >Educational History and Qualifications:</label
+                ><br />
+                <textarea rows="8" cols="40"></textarea><br /><br />
+                        <label for="experience">Experience/Training(in number):</label
+                ><br />
+                <input
+                  type="number"
+                  name="experience"
+                  id="experience"
+                  min="0"
+                  max="10"
+                /><br /><br />
+                <label for="statement">Personal Statement:</label><br />
+                        <textarea rows="8" cols="40" id="statement"></textarea
+                ><br /><br />
+              </fieldset>
+              <fieldset>
+                <legend style="text-align: center">
+                  <h2>Referee Form</h2>
+                </legend>
+                <fieldset>
+                  <legend style="text-align: center">
+                    Referee Form(to be completed by the applicant)
+                  </legend>
+                  <label for="applecant">Name:</label><br />
+                  <input
+                    type="text"
+                    name="applicant"
+                    id="applicant"
+                    maxlength="50"
+                    required
+                  /><br /><br />
+                  <label for="job">Occupation:</label><br />
+                  <input type="text" name="jab" id="job" required /><br /><br />
+                  <label for="rel">Relationship:</label><br />
+                  <input type="text" name="rel" id="rel" /><br /><br />
+                  <label for="addr">Address:</label><br />
+                  <textarea rows="8" cols="40" id="addr"></textarea><br /><br />
+                        <label for="phine">Phone:</label><br />
+                        <input type="tel" name="phone" id="phone" required /><br /><br />
+                    </fieldset>
+                    <br /><br />
+                    <fieldset>
+                        <legend style="text-align: center">
+                            Referee Form(to be completed by the referee)
+                        </legend>
+                        <label for="applecant">Name:</label><br />
+                        <input type="text" name="applicant" id="app" maxlength="50" required /><br /><br />
+                        <label for="job">Occupation:</label><br />
+                        <input type="text" name="jab" id="occ" required /><br /><br />
+                        <label for="rel">Relationship:</label><br />
+                        <input type="text" name="rel" id="relation" /><br /><br />
+                        <label for="addr">Address:</label><br />
+                        <textarea rows="8" cols="40" id="add"></textarea><br /><br />
+                        <label for="phine">Phone:</label><br />
+                        <input type="tel" name="phone" id="telephone" required /><br /><br />
+                    </fieldset>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+                    </fieldset>
+                </form>
+            </body>
+
+            </html>
+        </details>
+        <details>
+            <summary>Feedback Form</summary>
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Feedback page</title>
+            </head>
+
+            <body>
+                <form action="" method="get">
+                    <fieldset>
+                        <legend style="text-align: center">
+                            <h2 id="feedback">Feedback Form</h2>
+                        </legend>
+                        <fieldset>
+                            <label for="name">Name:</label>
+                            <input readonly type="text" name="name" value="" required /><br /><br />
+                            <label for="name">E-mail:</label>
+                            <input type="email" name="email" value="" required /><br /><br />
+                        </fieldset>
+                        <br />
+                        <fieldset>
+                            <p>Please check all the emotions that apply for you:</p>
+                            <input type="checkbox" name="check1" value="angry" />
+                            <label for="check">Angry</label><br />
+                            <input type="checkbox" name="check2" value="sad" />
+                            <label for="check">Sad</label><br />
+                            <input type="checkbox" name="check3" value="happy" />
+                            <label for="check">Happy</label><br />
+                            <input type="checkbox" name="check" value="amb" checked />
+                            <label for="check">Ambivalent</label>
+                        </fieldset>
+                        <br />
+                        <fieldset>
+                            <p for="radio">How satisfied were you with our service?</p>
+                            <input type="radio" name="a" id="very" value="Very satisfied" checked />
+                            <label for="very">Very satisfied</label><br />
+                            <input type="radio" name="a" id="sat" value="Satisfied" />
+                            <label for="sat">Satisfied</label><br />
+                            <input type="radio" name="a" id="did" value="Didn't care" />
+                            <label for="did">Didn't care</label><br />
+                            <input type="radio" name="a" id="dis" value="Dissatisfied" />
+                            <label for="dis">Dissatisfied</label><br />
+                            <input type="radio" name="a" id="vdis" value="Very dissatisfied" />
+                            <label for="vdis">Very dissatisfied</label>
+                        </fieldset>
+                        <br />
+                        <label for="comment">Further comments</label><br />
+                        <textarea rows="8" cols="40" id="comment"></textarea
+                ><br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit">Submit</button>
+              </fieldset>
+            </form>
+          </body>
+        </html>
+      </details>
+      <details>
+        <summary>Reservation Qequest and Pizza Delivery Form</summary>
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1.0"
+            />
+            <title>Room Reservation and Pizza Delivery Page</title>
+          </head>
+
+          <body>
+            <form action="" method="get">
+              <fieldset>
+                <legend style="text-align: center">
+                  <h1>Reservation Request</h1>
+                </legend>
+                <fieldset>
+                  <legend>General Information</legend>
+                  <label for="date">Arrival date:</label><br />
+                  <input type="date" name="date" id="date" /><br />
+                  <label for="night">Nights:</label><br />
+                  <input type="number" name="night" id="night" /><br />
+                  <label for="qty">Adults:</label><br />
+                  <input type="number" name="qty" id="qty" min="0" /><br />
+                  <label for="child">Children:</label><br />
+                  <input type="number" name="child" id="child" min="0" /><br />
+                </fieldset>
+                <fieldset>
+                  <legend>Preferences</legend>
+                  <label for="">Room Type:</label><br />
+                  <input type="radio" name="room" id="room" />
+                  <label for="room">Standard</label>
+                  <input type="radio" name="room" id="room2" />
+                  <label for="room">Business</label>
+                  <input type="radio" name="room" id="room3" />
+                  <label for="room">Suite</label><br />
+                  <label for="">Bed Type:</label><br />
+                  <input type="radio" name="bed" id="bed" />
+                  <label for="room">King</label>
+                  <input type="radio" name="bed" id="bed2" />
+                  <label for="room">Double</label>
+                  <input type="radio" name="bed" id="bed3" />
+                  <label for="room">Smoking</label>
+                </fieldset>
+                <fieldset>
+                  <legend>General Information</legend>
+                  <label for="name2">Name:</label><br />
+                  <input type="text" name="name" id="name2" required /><br />
+                  <label for="em">E-mail:</label><br />
+                  <input type="email" name="email" id="em" /><br />
+                  <label for="tel2">Phone:</label><br />
+                  <input type="tel" name="tel" id="tel2" /><br />
+                </fieldset>
+              </fieldset>
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button type="submit">Submit Reservation</button
+              >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button type="reset">Clear</button>
+            </form>
+            <br /><br />
+            <hr />
+            <form action="" method="get">
+              <fieldset>
+                <legend style="text-align: center">
+                  <h2>Pizza Delivery</h2>
+                </legend>
+                <fieldset>
+                  <legend>
+                    <h2>Online Order Form</h2>
+                  </legend>
+                  <label for="name3">Name*:</label><br />
+                  <input
+                    type="text"
+                    name="name"
+                    id="name3"
+                    required
+                  /><br /><br />
+                  <label for="address1">Address*:</label><br />
+                  <input
+                    type="text"
+                    name="address"
+                    id="address1"
+                    required
+                  /><br /><br />
+                  <label for="town">Town/City*:</label><br />
+                  <input
+                    type="text"
+                    name="town"
+                    id="town"
+                    required
+                  /><br /><br />
+                  <label for="post">postcode*:</label><br />
+                  <input
+                    type="text"
+                    name="post"
+                    id="post"
+                    required
+                  /><br /><br />
+                  <label for="tele">Telephone*:</label><br />
+                  <input type="tel" name="tel" id="tele" required /><br /><br />
+                  <label for="ema">E-mail*:</label><br />
+                  <input
+                    type="email"
+                    name="ema"
+                    id="ema"
+                    required
+                  /><br /><br />
+                  <p>* required fields</p>
+
+                  <table>
+                    <tr>
+                      <td>
+                        <fieldset>
+                          <legend>Topping</legend>
+                          <input type="radio" name="radio" id="marg" />
+                          <label for="marg">Margherite</label><br />
+                          <input type="radio" name="radio" id="season" />
+                          <label for="marg">Four Seasons</label><br />
+                          <input type="radio" name="radio" id="meat" />
+                          <label for="marg">Meat Feast</label><br />
+                        </fieldset>
+                      </td>
+                      <td>
+                        <fieldset>
+                          <legend>Size</legend>
+                          <input type="radio" name="radi" id="small" />
+                          <label for="small">Small</label><br />
+                          <input type="radio" name="radi" id="medium" />
+                          <label for="medium">Medium</label><br />
+                          <input type="radio" name="radi" id="large" />
+                          <label for="large">Large</label><br />
+                        </fieldset>
+                      </td>
+                      <td>
+                        <fieldset>
+                          <legend>Extras</legend>
+                          <input type="checkbox" name="check" id="mush" />
+                          <label for="mush">Mushrooms</label><br />
+                          <input type="checkbox" name="check1" id="pepper" />
+                          <label for="pepper">Green peppers</label><br />
+                          <input type="checkbox" name="check2" id="anch" />
+                          <label for="anch">Anchovies</label><br />
+                          <input type="checkbox" name="check3" id="cheese" />
+                          <label for="anch">Extra cheese</label><br />
+                        </fieldset>
+                      </td>
+                    </tr>
+                  </table>
+                  <label for="pre">Preferred delivery time:</label><br />
+                  <input type="datetime" name="pre" id="pre" /><br /><br />
+                  <label for="ins">Delivery Instructions or address:</label
+                  ><br />
+                  <textarea rows="8" cols="40"></textarea><br /><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="submit">Submit order</button>
+                    </fieldset>
+                    </fieldset>
+                </form>
+            </body>
+
+            </html>
+        </details>
+    </details>
+</body>
+
+</html>
