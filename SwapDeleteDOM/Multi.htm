@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Abebe Biru" />
+    <meta name="description" content="This is the page made by using table element with its attributes." />
+    <link rel="stylesheet" href="multi.css" />
+    <title>HTML Table</title>
+</head>
+
+<body>
+    <div id="div1">
+        <!-- table 1-->
+        <table>
+            <tr>
+                <!--table data 1-->
+                <td style="padding: 50px"></td>
+                <td id="logo">
+                    <img src="logo_gold.png" alt="Gold Logo" width="30%" />
+                </td>
+                <!--table data 2-->
+                <td class="data1">
+                    <ul id="ul1">
+                        <li><a href="#">Podcasts</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Idea</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <hr />
+    <button type="button" onclick="removeVdAd()">Remove-Audio-Video</button>
+    <button type="button" onclick="swapDom()">Swap</button>
+    <button type="button" onclick="deleteDom()">Delete Audio</button>
+    <button type="button" onclick="addPar()">Add paragraph</button>
+
+    <!--table 2-->
+    <table>
+        <!--table row 1-->
+        <tr>
+            <td width="100px"></td>
+
+            <td width="50%" id="td1">
+                <h1>Eric Hoffer and the Power of Self-Education</h1>
+                <p id="life">
+                    <img src="life1.jpg" alt="" width="700px" id="life1" />
+                </p>
+                <p id="p1">
+                    I recently read The True Believer by Eric Hoffer. It is a book about how mass movements evolve. With a lot of historical examples, the book explains the patterns and common threads among them. It is an insightful book and reading it was a great learning
+                    experience for me.
+                </p>
+                <p>
+                    <img style="float: left" src="#" alt="The True Believer book cover" width="90px" /> What I would like to share with you here is not the content of the book, though. Instead, I would like to share with you about the author.
+                </p>
+                <p>
+                    You see, I did not know about Eric Hoffer before. But I imagined he must be a famous professor from a well-known university. I mean, what else could explain the depth of his insights? The True Believer is an influential book. Here is how
+                    <a href="https://en.wikipedia.org/wiki/The_True_Believer" target="_blank">Wikipedia</a
+            >
+            put it:
+            <span id="spn" style="display: none">
+              The first and best-known of Hoffer’s books, The True Believer has
+              been published in twenty-three editions between 1951 and 2002. He
+              later touched upon similar themes in other works. Prominent
+              leaders and social commentators who have remarked publicly about
+              their interest in the book include American President Dwight D.
+              Eisenhower as well as American Secretary of State and First Lady
+              Hillary R. Clinton.
+            </span>
+            <button type="button" id="btn" onclick="spn()">see more</button>
+          </p>
+        </td>
+
+        <td width="2%"></td>
+
+        <td id="tdd">
+          <p style="text-align: right">
+            <a href="#bottom" id="btm">Go To Bottom</a>
+                </p>
+
+                <h2>Recent Posts</h2>
+
+                <ul id="ul">
+                    <li>
+                        <b>Articles</b>
+                    </li>
+                    <ul ul="ul3">
+                        <br />
+                        <li>
+                            The Importance of Goals, Especially During Difficult Times
+                        </li>
+                        <li>5 Steps to Discovering Your Life Purpose In 2022!</li>
+                        <br />
+                    </ul>
+                    <li>
+                        <b>Ideas</b>
+                    </li>
+                    <ul>
+                        <br />
+                        <li>10 Books to Read in The Fall</li>
+                        <li>Top Web Development Projects Ideas</li>
+                    </ul>
+                </ul>
+
+                <h2>Most Viewed Articles</h2>
+
+                <ol type="I">
+                    <li>
+                        Instant Gratification Is Stopping You From Reaching Your Goals!
+                    </li>
+                    <li>Stop Juggling Between Work And Life</li>
+                </ol>
+
+                <h2>IP Project Winners</h2>
+
+                <pre>
+--------------------------------------
+Rank          Award
+--------------------------------------
+First        Free hosting and support
+Second       5GB Mobile Data
+Third        1GB Mobile Data
+-------------------------------------- 
+               </pre
+          >
+        </td>
+
+        <td width="10%"></td>
+      </tr>
+
+      <!--table row 2-->
+      <tr>
+        <td width="100px;"></td>
+        <td width="50%">
+          <hr />
+          <h3>New Podcast</h3>
+          <h1>Jack Ma - How I Overcame Failure</h1>
+
+          <audio
+            id="audio"
+            src="jack.mp3"
+            controls
+            title="Jack Ma - How I Overcame Failure"
+          >
+            <p>Your browser doesn't support the audio.</p>
+          </audio>
+          <hr />
+          <h3>Pick of The Week</h3>
+          <h1>24 Hours A Day</h1>
+
+          <p id="vd">
+            <video
+              id="video"
+              src="24.mp4"
+              width="700"
+              height="400"
+              controls
+              title="24 Hours A Day /Video mp4"
+            ></video>
+          </p>
+        </td>
+      </tr>
+    </table>
+    <hr />
+
+    <!--table 3-->
+    <div id="tbl">
+      <table>
+        <tr>
+          <td>
+            <span>Follow us on: </span>
+            <ul id="ul2">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul id="ul3">
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center" width="88%" id="bottom">
+            Copyright © AASTU SEng 2021, All Rights Reserved
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="multi.js"></script>
+  </body>
+</html>
